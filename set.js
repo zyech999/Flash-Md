@@ -11,7 +11,7 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined ? databasePath : process.env.DATABASE_URL;
 
 module.exports = {
-    session: process.env.SESSION_ID || 'FLASH-MD-WA-BOT;;;=>',
+    session: process.env.SESSION_ID || 'FLASH-MD-WA-BOT;;FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid05DN1h4WlIxN1AxcnBqUU4xT2VGUTlpOXVUaGdaNUR2b1NQZXJhWjZHcz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMjRWbTNGaVdMUVlGa2pkaGQxTFR5dlZGUDVCZzI0TWhPVEI3dGxTcERFVT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRS2pBeElDYlZNZVRsMUlJdWJ3a0dzSWVHenRqbnFHbHZadjVkdjR6ZTNNPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI1TkUvRWxyUmJQbkFRZEJhZURMeVVHQmRNL0Z0M2crVnUvODJvM003ampBPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IndPajlKYzYvZm13aUppYmNFeHlMVWhSTFc0WmY2QklzMndORHI2bENZM1k9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InpIZTIxdVJ0ZHptUmI0VzRRTkRMWTNZQUVNWFExekJ3aFNnTFdMeVltV0U9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZ0xMWThNWC8zNXJSZUpsN0ttMUdyS0hWS0o4ODVaMWUva2RYc0gyVUJsOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMjdRRGtxcVFOK1g4eVRsSjd0U1VPdldJM2I3SjVFZ jNqYVl..;=>',
     PREFIXES: (process.env.PREFIX || '').split(',').map(prefix => prefix.trim()).filter(Boolean),
     OWNER_NAME: process.env.OWNER_NAME || "King Zyech",
     OWNER_NUMBER: process.env.OWNER_NUMBER || "255685182961",
